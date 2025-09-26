@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kişisel Blog - Yakup Efe Çelebi</title>
+    <style>
+        body {
+            font-family: "Courier New", monospace;
+            background-image: url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: rgba(13, 27, 42, 0.9);
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            background-color: rgba(27, 38, 59, 0.9);
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            width: 80%;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 30px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 250px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #1b263b;
+            margin-bottom: 20px;
+        }
+        .video-alani {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+            border: 3px solid #1b263b;
+        }
+        footer {
+            background-color: rgba(13, 27, 42, 0.9);
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Kişisel Blog - Yakup Efe Çelebi</h1>
+    </header>
+
+    <nav>
+        <a href="#anasayfa">Hakkımda</a>
+        <a href="#hakkimda">Projelerim</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <section id="anasayfa">
+        <img src="yec.jpeg" alt="Benim Fotoğrafım">
+        <h2>Hakkımda</h2>
+        <p>Merhaba, ben Yakup Efe Çelebi. 21 yaşındayım ve Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. Futbolu takip etmeyi ve fitness yapmayı seviyorum. İleride mobil uygulamalar üzerine yazılım kariyeri inşa etmek istiyorum.</p> 
+    </section>
+
+    <section id="hakkimda">
+        <h2>Projelerim</h2>
+        <p>Şu an oyun geliştirme ve mobil uygulamalar üzerinde çalıştığım birçok proje var, ancak tamamen bitmiş değiller.</p>
+
+        <h3>Video</h3>
+        <div class="video-alani">
+            <iframe src="https://www.youtube.com/embed/GMEMKMAb5w4" 
+                    title="YouTube video oynatıcı" 
+                    frameborder="0" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <p>
+            <a href="mailto:yakupcelebiefe@gmail.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" 
+                     alt="Mail" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/_efecelebi_/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" 
+                     alt="Instagram" width="30" height="30">
+            </a>
+            <a href="https://github.com/yecairdrop" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" 
+                     alt="GitHub" width="30" height="30">
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 | Yakup Efe Çelebi | 2311012045</p>
+    </footer>
+</body>
+</html>
